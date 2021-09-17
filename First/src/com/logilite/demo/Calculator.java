@@ -13,7 +13,7 @@ public class Calculator {
 		System.out.print("Enter two numbers: ");
 		num1 = reader.nextDouble();
 		num2 = reader.nextDouble();
-		System.out.print("\nEnter an operator (+, -, *, /): ");
+		System.out.print("\nEnter an operator (+, -, *): ");
 		op = reader.next().charAt(0);
 		switch (op) {
 		case '+':
@@ -25,11 +25,8 @@ public class Calculator {
 		case '*':
 			ans = num1 * num2;
 			break;
-		case '/':
-			ans = num1 * num2;
-			break;
 		default:
-			System.out.printf("Error! Invalid operator");
+			System.out.printf("Error! Please Enter Valid operator");
 			return;
 		}
 		System.out.print("\nThe result is given as follows:\n");
