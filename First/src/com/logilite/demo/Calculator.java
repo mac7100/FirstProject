@@ -29,7 +29,7 @@ public class Calculator {
 			ans = num1 / num2;
 			break;
 		default:
-			System.out.printf("Error! Enter correct operator");
+			System.out.printf("Error! Invalid operator");
 			return;
 		}
 		System.out.print("\nThe result is given as follows:\n");
