@@ -26,7 +26,7 @@ public class Calculator {
 			ans = num1 * num2;
 			break;
 		case '/':
-			ans = num1 / num2;
+			ans = num1 * num2;
 			break;
 		default:
 			System.out.printf("Error! Invalid operator");
